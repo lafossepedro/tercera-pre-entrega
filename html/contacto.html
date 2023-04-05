@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./media/logo-mater.png">
+    <title>Contacto - Mater Puericultura</title>
+    <meta name="description" content="Mater Puericultura ofrece servicios de puericultura para apoyar a madres desde el embarazo hasta los dos años, con especial énfasis en nutrición, lactancia y crianza.">
+    <meta name="keywords" content="Mater Puericultura, Puericultura, Nutrición Infantil, Lactancia">
+    <link rel="stylesheet" href="../CSS/bootstrap.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body class="fondo">
+    <header><!--LOGO HEADER-->
+        <a href="../index.html" class="banner-superior">
+          <img src="../media/mater-puericultura-banner.png" alt="Mater Puericultura Logo Banner" class="banner">
+        </a>
+        <nav><!--MENÚ DE NAVEGACIÓN-->
+          <ul>
+            <li><a href="../index.html" style="color:white">Inicio</a></li>
+            <li><a href="./sobre mi.html" style="color:white">Sobre mi</a></li>
+            <li><a href="./blog.html" style="color:white">Blog</a></li>
+            <li><a href="./contacto.html" style="color:white">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h1>¡Escribime!</h1>
+        <section><!--FORMULARIO-->
+            <form action="enviar.php" method="POST" class="formulario">
+                <div class="campo">
+                  <label for="nombre">Nombre:</label>
+                  <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="campo">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+                <div class="campo">
+                  <label for="asunto">Asunto:</label>
+                  <input type="text" id="asunto" name="asunto" required>
+                </div>
+                <div class="campo">
+                  <label for="mensaje">Mensaje:</label>
+                  <textarea id="mensaje" name="mensaje" required></textarea>
+                </div>
+                <input type="submit" value="Enviar" class="boton-enviar">
+            </form>
+          </section>
+          <section><!--GOOGLE MAPS-->
+            <h2>Dónde encontrarme</h2>
+              <p>Me encuentro en el barrio de Almagro en CABA y trabajo tanto en la ciudad como en Provincia de Buenos Aires.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13135.094010842617!2d-58.422626449999996!3d-34.609888500000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca5e41da17ff%3A0xebce9fad2698f23f!2sAlmagro%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1676423923257!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </section>
+      </main>
+      <hr>
+      <footer><!--FOOTER-->
+        <p>
+          2023 - Todos los derechos reservados
+        </p>
+      </footer>
+</body>
+</html>
